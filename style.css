@@ -101,6 +101,10 @@ div#switch {
   animation: slide-out 0.4s;
 }
 
+#switch button:hover {
+  outline: solid 8px var(--surface-color-hover);
+}
+
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
